@@ -1,7 +1,7 @@
 {
     "id": "context-toolkit",
-    "name": "Obsidian Context Toolkit",
-    "version": "1.0.0",
+    "name": "Context Toolkit",
+    "version": "1.0.1",
     "minAppVersion": "0.15.0",
     "description": "A toolkit to copy notes with all linked context, automate context assembly, and enhance note management in Obsidian.",
     "author": "ingap.dev",
