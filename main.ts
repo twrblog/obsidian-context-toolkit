@@ -115,14 +115,14 @@ export default class CopyPageContentPlugin extends Plugin {
 		);
 
 		// Add ribbon icon to open the view
-		this.addRibbonIcon('copy', 'Open Copy Context Panel', () => {
+		this.addRibbonIcon('copy', 'Open context toolkit', () => {
 			this.activateView();
 		});
 
 		// Add command to open the view
 		this.addCommand({
 			id: 'open-copy-context-panel',
-			name: 'Open copy context panel',
+			name: 'Open context toolkit',
 			callback: () => {
 				this.activateView();
 			}
